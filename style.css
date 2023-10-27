@@ -11,6 +11,7 @@ main {
 .header-text {
   color: #0866FF;
   margin-bottom:10px ;
+  font-size: larger;
   font-weight: bold;
 }
 .box {
@@ -33,11 +34,13 @@ button{
   border-radius: 5px;
   background-color: #1877F2;
   color:White;
+  font-weight: bold;
   font-size: large;
   /* box-shadow: ; */
 }
 .form-p {
-  font-size:small;
+  margin-top: 8px;
+  font-size:medium;
   color: #1877F4;
 }
 p a {
@@ -79,7 +82,7 @@ footer{
 }
 .language p {
   font-size: smaller;
-  line-height: 5px;
+  line-height: 2px;
   text-align: center;
   color: #576B95;
 }
@@ -87,9 +90,13 @@ footer{
   margin: 0px 0px 0px 5rem;
 }
 i{
-  color: #838383;
-  font-size: 25px;
+  color: #7F7F7F;
+  font-size: 17px;
   margin-left: 38%;
+  border: 1px solid #3B5998;
+  border-radius: 3px;
+  padding: 2px;
+  
 }
 ul{
   display: flex;
@@ -99,18 +106,20 @@ ul{
   margin-top: 2rem;
 }
 ul li{
-  font-size: 0.7rem;
-  color: #A8ACD4;
+  font-size: 10px;
+  color: #A190B5;
+  line-height: 1px;
   /* margin-right: 20px; */
 }
 .ftr-1{
   list-style: none;
 }
-.meta {
-  font-size: 0.9rem;
+.meta{
+  font-size: 13px;
   width: 80%;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 13px;
+  color: #A190B5;
 }
 .meta p{
   text-align: center;
