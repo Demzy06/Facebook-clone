@@ -14,6 +14,9 @@ main {
   font-size: larger;
   font-weight: bold;
 }
+.fb-mission{
+  display: none;
+}
 .box {
   width:100%;
   height: 42px;
@@ -38,6 +41,7 @@ button{
   font-size: large;
   /* box-shadow: ; */
 }
+
 .form-p {
   margin-top: 8px;
   font-size:medium;
@@ -45,6 +49,9 @@ button{
 }
 p a {
   text-decoration: none;
+}
+hr{
+  display: none;
 }
 .rule {
   width: 45%;
@@ -62,14 +69,21 @@ p a {
   /* height: 30px; */
   text-align: center;
   margin-top: 13px;
+  border: 1px solid #D2D5D9;
+  border-radius: 7px;
+  height: 42px;
+  background-color: transparent;
+
+  
 }
-.join-facebook input {
+/* .join-facebook input {
   text-align: center;
   border: 1px solid #D2D5D9;
   border-radius: 7px;
   width: 78%;
   height: 37px;
-}
+  background-color: transparent;
+} */
 footer{
   width: 80%;
   margin: auto;
@@ -88,6 +102,9 @@ footer{
 }
 .language-container-2{
   margin: 0px 0px 0px 5rem;
+}
+.lang{
+  display: none;
 }
 i{
   color: #7F7F7F;
@@ -114,6 +131,9 @@ ul li{
 .ftr-1{
   list-style: none;
 }
+.lastfooter-section{
+  display: none;
+}
 .meta{
   font-size: 13px;
   width: 80%;
@@ -126,8 +146,185 @@ ul li{
   padding-left: 2rem;
   color: #908080;
 }
+/* desktop screen */
 @media (min-width:1024px){
   body{
+    background-color: #F0F2F5;
+  }
+  main {
+    width: 65%;
+    padding-top: 10px;
+    margin:auto;
+    margin-top: 5rem;
+    display: flex;
+  }
+  header{
+    width: 65%;
+    margin: 5.5rem 0px 0px 0px;
+    height: 40vh;
+  }
+  .header-text{
+    display: flex;
+    text-align: start;
+    font-size: 3.7rem;
+  }
+  .fb-mission{
+    display: flex;
+  }
+  form{
+    width: 43%;
+    height: 21rem;
+    margin: 4rem 0px 2rem 2rem;
+    background-color: #FFFFFF;
+    padding: 14px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px #D4D6D9;
+  }
+  .box {
+    width:100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #EAEAEB ;
+    border-radius: 5px;
+    background-color:#FFFFFF
+  }
+  button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1877F2;
+    color:White;
+    font-weight: bold;
+    font-size: large;
+    /* box-shadow: ; */
+  }
+  button:hover{
+    background-color:#1369da
+  }
+  .rule{
     display: none;
+  }
+  .or{
+    display: none;
+  }
+  .desktop-create-hr{
+    display: flex;
+  }
+
+  .join-facebook {
+    width: 58%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 13px;
+    color: white;
+    font-size: large;
+    border: none;
+    background-color: #36A420;
+    margin-left: 20%;
+  }
+  .join-facebook:hover{
+    background-color: #31961d;
+  }
+   footer{
+    width: 100%;
+    height: 12rem;
+    margin: auto;
+    margin-top: 8rem;
+    background-color: #FFFFFF;
+  } 
+
+  .language{
+    display: flex;
+    margin-top: 4px;
+    justify-content: start;
+    width: 50%;
+    margin: 0px 32.1rem auto auto;
+  }
+  
+  .language-container-1{
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .language p {
+    font-size: smaller;
+    line-height: 2px;
+    /* text-align: center; */
+    color: #576B95;
+  }
+  
+  .language-container-2{
+   gap: 5px;
+   display: none;
+  }
+
+  /* desktop-lang */
+  .lang{
+    display: flex;
+    gap: 10px;
+  }
+  i{
+    color: #7F7F7F;
+    font-size: 17px;
+    margin-left: 38%;
+    border: 1px solid #3B5998;
+    border-radius: 3px;
+    padding: 2px;
+    
+  }
+  ul{
+    /* display: flex;
+    justify-content: space-between;
+    width: 48%;
+    margin: auto;
+    margin-top: 2rem; */
+    display: none;
+  }
+  .desktop-hr{
+    display: flex;
+    width: 65%;
+    margin: auto;
+  }
+  .meta{
+    font-size: 13px;
+    width: 10%;
+    margin: auto;
+    margin-top: 15px;
+    color: #A190B5;
+  }
+  .meta p{
+    text-align: center;
+    padding-left: 2rem;
+    color: #908080;
+  } 
+  .lastfooter-section{
+    display: flex;
+    width: 65%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 10px;
+    
+  }
+  .main-lang-container{
+    width:100%;
+    height: fit-content;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: small;
+    line-height: 1px;
+    margin-top: 9px;
+  }
+  .container p > a{
+    color: #998DAD;
+  }
+  a:hover{
+    text-decoration: underline;
   }
 }
